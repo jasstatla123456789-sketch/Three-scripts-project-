@@ -1,42 +1,96 @@
-# Three-scripts-project-
-Demonstration of all three languages in the topic File Organization 
-# File System Operations
+# Network Information Toolkit
 
-This project demonstrates basic file system operations using three programming languages:
+A simple cross-platform project that demonstrates how to retrieve network information using **Bash**, **Python**, and **JavaScript (Node.js)**.
 
-- Bash Shell Script
-- Python
-- JavaScript (Node.js)
+## 📌 Overview
 
-## Operations Performed
+This project provides three implementations of a Network Information Toolkit. Each version is written in a different programming language and performs common network-related tasks through a menu-driven interface.
 
-- Create a directory
-- Create a text file
-- Write data to the file
-- Read the file
-- List directory contents
-- Rename the file
-- Delete the file
-- Remove the directory
+## 🚀 Features
 
-## Folder Structure
+- Show Hostname
+- Show Local IP Address
+- Show Network Interfaces
+- Test Internet Connectivity
+- Display DNS Server Information
+- Show Routing Table
+- Menu-Driven Interface
+
+## 📂 Project Structure
 
 ```
-File-System-Operations/
+Network-Information-Toolkit/
+│
 ├── bash/
+│   └── network_toolkit.sh
+│
 ├── python/
+│   └── network_information_toolkit.py
+│
 ├── javascript/
+│   └── network_toolkit.js
+│
 ├── LICENSE
 ├── .gitignore
 └── README.md
 ```
 
-## Requirements
+## 💻 Languages Used
 
-- Bash (Linux/macOS or Git Bash)
+- Bash Shell
+- Python 3
+- JavaScript (Node.js)
+
+## ▶️ How to Run
+
+### Bash
+
+```bash
+chmod +x network_toolkit.sh
+./network_toolkit.sh
+```
+
+### Python
+
+```bash
+python3 network_information_toolkit.py
+```
+
+### JavaScript (Node.js)
+
+```bash
+node network_toolkit.js
+```
+
+## 📋 Features
+
+- View Hostname
+- View Local IP Address
+- View Network Interfaces
+- Test Internet Connection
+- View DNS Servers
+- View Routing Table
+- Exit Program
+
+## 🛠 Requirements
+
+- Linux (Ubuntu, Kali, Debian, etc.)
+- Bash
 - Python 3.x
 - Node.js
 
-## Author
+## 🎯 Learning Outcomes
 
-Your Name
+- Learn Bash scripting for networking tasks.
+- Understand Python networking and system commands.
+- Use JavaScript (Node.js) to retrieve network information.
+- Compare networking implementations across multiple programming languages.
+- Practice menu-driven application development.
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👨‍💻 Author
+
+**Jasmine kaur tatla**
