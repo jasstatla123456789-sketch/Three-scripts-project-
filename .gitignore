@@ -1,0 +1,45 @@
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node.js
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+*.temp
+
+# Backup Files
+*.bak
+*.swp
+*~
+
+# Environment Files
+.env
+.env.*
+
+# Archive Files
+*.zip
+*.tar
+*.gz
+
+# Coverage
+coverage/
